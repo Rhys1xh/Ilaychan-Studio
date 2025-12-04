@@ -1,159 +1,144 @@
-Ilaychan Studio – Professional Windows Development Environment
-Ilaychan Studio is a high-performance Windows-native graphics and multimedia engine designed for professional creative development and interactive content creation on the Windows platform. Built on the Raylib framework and optimized exclusively for Windows, it provides efficient, low-overhead control over 2D/3D graphics, audio, and input handling with a clean, well-designed API.
+# Ilaychan Studio – Professional Digital Creation Suite for Windows
+
+Ilaychan Studio is a comprehensive, high-performance digital creation environment designed for professional artists and designers. Built exclusively for Windows with a custom hardware-accelerated engine, it provides an integrated workflow for digital painting, vector design, motion graphics, and image processing with unprecedented performance and precision.
+
+## Overview: A Unified Creative Engine
+
+Ilaychan Studio redefines professional creative software by unifying traditionally separate disciplines into a single, cohesive application. Experience seamless transitions between raster painting, vector illustration, and motion design workflows—all powered by a native Windows engine that eliminates performance barriers and workflow interruptions.
+
+## Core Creative Capabilities
+
+### Professional Digital Painting & Illustration
+- **Advanced Brush Engine**: Pressure-sensitive brush system with customizable dynamics, texture blending, and real-time stroke smoothing. Supports tilt, rotation, and custom brush tip shapes with instant response.
+- **Layer-Based Non-Destructive Workflow**: Comprehensive layer system supporting adjustment layers, clipping masks, layer effects, and smart filters that remain fully editable throughout the creative process.
+- **Natural Media Simulation**: Authentic simulation of traditional media including oil paints, watercolors, pencils, and charcoal with realistic pigment behavior and paper texture interaction.
+- **High-Resolution Canvas Support**: Work seamlessly with multi-gigapixel documents with real-time zoom and pan performance, maintaining brush responsiveness at any magnification.
+
+### Precision Vector Design & Illustration
+- **Bezier & Vector Brush Tools**: Professional-grade vector editing with full control over anchor points, curves, and pressure-sensitive vector brushes that create scalable, resolution-independent artwork.
+- **Boolean Operations & Pathfinder**: Complex shape construction through union, intersection, exclusion, and subtraction operations with non-destructive application.
+- **Live Gradient & Mesh Editing**: Interactive gradient manipulation with multiple color stops and mesh gradient tools for creating photorealistic vector blends and shadings.
+- **Symbol & Asset Management**: Reusable vector symbols with global editing capabilities—change a master symbol and automatically update all instances throughout your project.
+
+### Professional Image Processing & Compositing
+- **32-bit Floating Point Processing**: Full high dynamic range support with 32-bit per channel color depth for professional photographic editing and visual effects work.
+- **Advanced Selection & Masking**: Luminosity-based masking, color range selection, edge refinement with intelligent algorithms, and quick selection tools with machine learning-assisted edge detection.
+- **Non-Destructive Filter Stack**: Layer-based filter system with adjustment layers for color correction, tonal adjustments, and creative effects that remain fully editable and adjustable.
+- **Content-Aware Tools**: Intelligent fill, healing, and removal tools that analyze image content to seamlessly reconstruct missing or removed areas.
+
+### Motion Graphics & Timeline Animation
+- **Professional Keyframe Animation**: Robust timeline with bezier curve easing, graph editor for precise motion control, and support for nested composition timelines.
+- **Vector-Based Motion Graphics**: Animate vector properties directly—transform paths, gradients, and strokes over time with smooth interpolation and motion blur effects.
+- **3D Layer Integration**: Position and animate layers in 3D space with camera controls, lighting, and depth of field effects while maintaining vector editability.
+- **Expressions & Dynamic Linking**: Create relationships between properties using expression language, link parameters across layers, and drive animations with external data sources.
+
+## Professional Color & Output Management
+
+### End-to-End Color Workflow
+- **Full Color Management**: ICC profile support throughout the entire pipeline, from document creation through to final output.
+- **Wide Gamut & High Bit Depth**: Native support for Adobe RGB, DCI-P3, Rec. 2020, and other professional color spaces with 16/32-bit per channel processing.
+- **Soft Proofing & Gamut Checking**: Real-time simulation of output conditions including CMYK conversion, paper simulation, and gamut warning overlays.
+- **Reference Image Comparison**: Side-by-side comparison tools with difference views, histogram analysis, and color sampling across multiple documents.
 
-Overview
-A professional-grade Windows development environment that extends Raylib's minimalist philosophy into a complete creative suite tailored for the Windows ecosystem. Ilaychan Studio delivers reliable native performance, deep Windows integration, and the tools needed for serious interactive projects on Microsoft platforms.
+### Professional Export & Production
+- **Batch Processing & Automation**: Record and save complex sequences of operations as reusable actions, with batch processing capabilities for high-volume production work.
+- **Variable Data Publishing**: Link text and image layers to external data sources for generating personalized content at scale.
+- **Export Presets & Slices**: Define custom export configurations for multiple formats and resolutions simultaneously, with slice-based export for web and application assets.
+- **Print Production Tools**: Professional imposition, bleed management, crop marks, and preflight checking for physical media production.
 
-Core Architecture (Windows Focus)
-Technical Foundation
-Graphics Backend: Optimized Windows rendering through Direct3D 11 with OpenGL fallback support
+## Performance & Architecture
 
-Windows-Specific Features: Direct integration with Windows Input, Audio, and Display subsystems
+### Hardware Accelerated Engine
+- **Direct Compute Integration**: GPU-accelerated processing for filters, effects, and complex operations using DirectCompute shaders.
+- **Real-Time Preview**: Instant application of effects and adjustments with full-resolution previews, eliminating waiting times for complex operations.
+- **Background Processing**: Continue working while resource-intensive operations like file saving, export, or filter application complete in the background.
+- **Memory Optimized Workflow**: Intelligent caching and memory management for handling large documents and complex compositions efficiently.
 
-Language: Pure C with C++ compatibility, compiled with MSVC for optimal Windows performance
+### Windows-Native Performance
+- **DirectX 11 Acceleration**: Full utilization of Windows graphics capabilities for maximum rendering performance.
+- **Multi-Core Optimization**: Efficient parallel processing across CPU cores for operations like filter application, rendering, and file I/O.
+- **High-DPI & Multi-Monitor**: Flawless support for high-resolution displays and multi-monitor workstation configurations.
+- **Windows Shell Integration**: Deep integration with Windows Explorer, file dialogs, and system services for a seamless workflow.
 
-Platform Support: Windows 7/8/10/11 (x86 and x64), with optional UWP builds
+## Professional Toolset
 
-Windows API Integration: Direct Win32 API utilization for window management, input, and system services
+### Digital Painting & Texturing
+- **Custom Brush Creation**: Build custom brushes with multiple texture sources, scattering options, and dynamic controls responsive to pressure, velocity, and tilt.
+- **Symmetry & Pattern Tools**: Radial, mandala, and tessellation symmetry modes with live preview for creating intricate patterns and designs.
+- **Perspective & Grid Systems**: Customizable perspective grids, isometric guides, and layout grids that snap brushes and transformations for technical illustration.
+- **Texture & Material Painting**: Project textures onto 3D geometry within 2D space and paint materials with normal, roughness, and displacement channels.
 
-Windows Performance Characteristics
-Windows Memory Management: Optimized heap allocation and resource handling for Windows systems
+### Vector & Type Design
+- **Advanced Typography Tools**: OpenType feature support, paragraph composition, text on path, and variable font manipulation.
+- **Vector Warp & Mesh**: Envelope distortion, mesh warp, and liquify tools that work non-destructively on vector artwork.
+- **Artboard Management**: Multiple artboards within a single document with independent dimensions and export settings.
+- **Symbol Libraries**: Create and manage libraries of reusable vector assets with search, tagging, and organization features.
 
-DirectX Integration: Optional Direct3D 11 backend for maximum Windows graphics performance
+### Image Manipulation & Effects
+- **Frequency Separation**: Professional retouching workflow separating texture and color/tone information for precise adjustments.
+- **Lens & Optical Effects**: Realistic lens blur, bokeh, chromatic aberration, and vignette effects with physical camera parameter controls.
+- **Stylization & Artistic Filters**: Comprehensive filter library including oil paint, watercolor, sketch, and halftone effects with customizable parameters.
+- **HDR & Tone Mapping**: Merge multiple exposures, process 32-bit HDR images, and apply tone mapping with detail preservation.
 
-Windows Input Stack: Native handling of Windows input messages and game controller APIs
+### Motion & Interaction Design
+- **Interactive Prototyping**: Create interactive prototypes with clickable areas, transitions, and state changes for UI/UX design presentation.
+- **Motion Templates**: Save and reuse animation setups, transitions, and motion behaviors across projects.
+- **Data Visualization**: Generate charts, graphs, and data-driven graphics that update dynamically with linked data sources.
+- **3D Text & Extrusion**: Create and animate extruded text and shapes with bevels, materials, and lighting.
 
-Platform-Specific Optimizations: Code paths specifically tuned for Windows behavior
+## System Requirements
 
-Professional Windows Features
-Graphics & Rendering (Windows Optimized)
-Direct3D 11 Backend: Native Windows graphics pipeline with shader model 5.0 support
+### Recommended Professional Workstation
+- **Operating System**: Windows 10/11 (64-bit)
+- **Processor**: Intel Core i7/i9 or AMD Ryzen 7/9 (8+ cores recommended)
+- **Memory**: 32GB RAM minimum, 64GB+ recommended for large compositions
+- **Graphics**: NVIDIA GeForce RTX 3060 / AMD Radeon RX 6700 XT or better with 8GB+ VRAM
+- **Display**: 1920x1080 minimum, 4K or dual monitor recommended
+- **Storage**: NVMe SSD with 50GB+ free space for cache and scratch disks
 
-Windows Display Management: Multi-monitor support with Windows display mode control
+### Minimum Requirements
+- **Operating System**: Windows 10 (64-bit)
+- **Processor**: Intel Core i5 or AMD Ryzen 5 (4 cores)
+- **Memory**: 16GB RAM
+- **Graphics**: DirectX 11 compatible GPU with 4GB VRAM
+- **Storage**: SSD with 20GB free space
 
-High-DPI Awareness: Native Windows DPI scaling and resolution management
+## Getting Started
 
-Windows Compositor Integration: Proper handling of Windows desktop composition
+### Installation & Setup
 
-DirectWrite Fallback: Enhanced text rendering on Windows systems
+# Download the latest release from:
+# https://github.com/rhys1xh/ilaychan-studio/releases
 
-Windows Asset Pipeline
-Windows Codec Support: Leveraging Windows Imaging Component (WIC) for extended format support
+# Or build from source (for developers):
+git clone https://github.com/rhys1xh/ilaychan-studio.git
+cd ilaychan-studio
+# Use VS or VS Dev Prompt with MSVC for compilation
 
-DirectSound/XAudio2 Integration: Windows-native audio playback with low latency
+### Recommended Initial Configuration
+1. **Graphics Settings**: Enable GPU acceleration in Preferences > Performance
+2. **Color Setup**: Configure your color settings in Edit > Color Settings
+3. **Workspace Layout**: Choose from pre-built workspaces for painting, design, or motion work
+4. **Brush & Tool Presets**: Load or create custom tool presets for your workflow
 
-Windows Font System: Integration with Windows font directory and system fonts
+## Learning Resources
 
-Windows Resource Management: Efficient use of Windows memory and file caching systems
+- **Interactive Tutorials**: Built-in guided tutorials covering core workflows
+- **Template Library**: Professionally designed templates for various project types
+- **Community Resources**: User-subscribed brushes, patterns, and presets
+- **Documentation**: Comprehensive online manual with searchable content
 
-Windows Development Tools
-Visual Studio Integration: Project templates and debugging tools for Visual Studio 2022
 
-Windows Performance Counters: Integration with Windows performance monitoring
 
-Windows Event Tracing: Debugging and profiling with ETW (Event Tracing for Windows)
+**Note**: While Raylib itself supports multiple platforms, this Windows-focused distribution of Ilaychan Studio includes platform-specific optimizations, documentation, and tools specifically for Windows development. For cross-platform projects, consider the standard Raylib distribution.
 
-PIX Compatibility: Support for DirectX debugging with PIX for Windows
+**Repository**: [github.com/rhys1xh/ilaychan-studio](https://github.com/rhys1xh/ilaychan-studio)
 
-Windows Console Integration: Enhanced debugging output and logging to Windows console
 
-Professional Windows Use Cases
-Windows Game Development
-2D and 3D Windows game development and distribution
+*Built with love for Windows developers who value performance, simplicity, and deep platform integration.*
 
-Educational and training applications for Windows platforms
-
-Interactive simulations and visualizations for Windows environments
-
-Windows Multimedia Applications
-Creative coding tools and utilities for Windows
-
-Windows-native interactive installations and exhibits
-
-Professional Windows presentation and visualization software
-
-Windows Prototyping & Tools
-Rapid Windows application prototyping
-
-Internal tools and utilities for Windows environments
-
-Windows kiosk and dedicated system applications
-
-Development Workflow
-Windows Build System
-MSVC Compilation: Optimized builds with Microsoft Visual C++
-
-Windows SDK Integration: Full Windows 10/11 SDK compatibility
-
-Static/DLL Configuration: Flexible library configuration for Windows deployment
-
-Windows Defender Exclusion: Guidance for development folder exclusions
-
-Windows Deployment
-Single Executable Distribution: Static linking for simple Windows deployment
-
-Windows Installer Support: Integration with WiX Toolset and InstallShield
-
-Windows Store Compatibility: Guidance for Microsoft Store submission
-
-Windows Version Targeting: Specific optimizations for different Windows versions
-
-System Requirements
-Minimum Windows Configuration
-OS: Windows 7 (Service Pack 1) or later
-
-CPU: SSE2 supported processor
-
-GPU: Direct3D 11 compatible graphics (feature level 10.0)
-
-RAM: 2GB minimum, 4GB recommended
-
-Storage: 50MB for runtime, additional for assets
-
-Development Requirements
-Windows 10/11: Recommended for development
-
-Visual Studio 2022: Community or Professional edition
-
-Windows SDK: Latest Windows 10/11 SDK
-
-Configure Windows high-performance GPU settings
-
-Enable Windows developer mode for debugging
-
-Set up Windows firewall exceptions for networked applications
-
-Windows Performance Tuning
-Graphics Optimization
-Direct3D 11 feature level targeting
-
-Windows-specific shader compilation
-
-GPU vendor optimizations (NVIDIA/AMD/Intel)
-
-Windows display scaling adjustments
-
-System Integration
-Windows power plan configuration for performance
-
-Windows graphics performance preferences
-
-Windows Game Mode compatibility
-
-Windows full-screen optimizations management
-
-License & Distribution
-Ilaychan Studio is open-source and free for commercial and non-commercial Windows applications. Built projects can be distributed royalty-free on Windows platforms.
-
-Note: While Raylib itself supports multiple platforms, this Windows-focused distribution of Ilaychan Studio includes platform-specific optimizations, documentation, and tools specifically for Windows development. For cross-platform projects, consider the standard Raylib distribution.
-
-Repository: github.com/rhys1xh/ilaychan-studio
-
-Built with love for Windows developers who value performance, simplicity, and deep platform integration.
-
-Built with love:
+### Built with love:
 
 "I cannot paint with colors, but I can paint with code. My canvas is the screen, and my brush is the compiler. I build for ilayda who sees worlds I cannot, giving her tools to make visions real without the friction of the machine. I don't take any penny, because the earnings i want with my creation, is to see the beauty ilayda, the love of my life will create with my code. My art is the absence of limitation, so hers may be boundless."
 
-
-Currently In-Progress
+### Currently In-Progress
